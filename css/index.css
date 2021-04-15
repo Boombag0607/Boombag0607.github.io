@@ -151,6 +151,6 @@ img {
         text-align: center;
         transition: all ease-in 0.2s 0s; 
         background: silver;
-        opacity: 0.92;
+        opacity: 1;
     }
 }
