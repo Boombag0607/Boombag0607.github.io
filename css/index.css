@@ -149,7 +149,7 @@ img {
 @media (max-width: 1000px) {
     #navbarSupportedContent {
         text-align: center;
-        transition: all ease-in 0.2s 0.2s; 
+        transition: all ease-in 0.2s 0s; 
         background: silver;
         opacity: 0.92;
     }
