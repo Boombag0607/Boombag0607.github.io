@@ -160,10 +160,15 @@ img {
      radial-gradient(currentColor 92%,#0000) bottom/50% 3px,
      linear-gradient(currentColor 0 0) bottom 1px center/100% 1px;
    background-repeat:repeat-x;
-    -webkit-mask:
+   -webkit-mask :
+       linear-gradient(#000 0 0) top    /100% calc(100% - 12px),
+       linear-gradient(#000 0 0) bottom /var(--p,0%) 12px;
+    mask :
        linear-gradient(#000 0 0) top    /100% calc(100% - 12px),
        linear-gradient(#000 0 0) bottom /var(--p,0%) 12px;
     -webkit-mask-repeat:no-repeat;
+    transition: 0.5s; 
+    mask-repeat:no-repeat;
     transition: 0.5s; 
   }
   .nav-item:hover {
